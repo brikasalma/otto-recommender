@@ -91,7 +91,7 @@ otto-recommender/
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   └── otto-recommender-covisitation.ipynb   # exploration, validation, méthodes, soumission
+│   └── otto-multi-objective-recommender.ipynb   # exploration, validation, méthodes, soumission
 └── results/
     └── kaggle_submission.png                  # capture de l'onglet Submissions
 ```
@@ -99,7 +99,7 @@ otto-recommender/
 ## 7. Reproduire
 
 1. Ouvrir un notebook Kaggle et ajouter la compétition *OTTO – Multi-Objective Recommender System* en entrée (accepter d'abord les règles de la compétition).
-2. Importer `notebooks/otto-recommender-covisitation.ipynb`.
+2. Importer `notebooks/otto-multi-objective-recommender.ipynb`.
 3. Vérifier le chemin des données avec `os.walk('/kaggle/input')`. Dans nos essais : `/kaggle/input/competitions/otto-recommender-system/`.
 4. Lancer les cellules dans l'ordre. La génération du fichier de soumission prend quelques minutes.
 5. En local, installer les dépendances avec `pip install -r requirements.txt` et adapter le chemin des données. Les 12 Go de données dépassent la mémoire d'un ordinateur portable standard, donc un notebook Kaggle est recommandé.
